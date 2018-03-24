@@ -3423,7 +3423,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // This will be referred to by dat.GUI's functions that add GUI elements.
 const controls = {
     tesselations: 5,
-    meshes: 'cow',
+    meshes: 'flower',
     'Load Scene': loadScene,
 };
 let particles;
@@ -3687,8 +3687,8 @@ function screenToWorld() {
     //2d Viewport Coordinates
     var x = (mouseX / window.innerWidth) * 2 - 1;
     var y = 1 - (mouseY / window.innerHeight) * 2;
-    x /= window.innerHeight;
-    y /= window.innerHeight;
+    //x /= window.innerHeight;
+    //y /= window.innerHeight;
     var z = 1;
     var angle = Math.tan(camera.fovy / 2.0);
     var ref = __WEBPACK_IMPORTED_MODULE_0_gl_matrix__["c" /* vec3 */].create();
