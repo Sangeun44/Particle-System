@@ -51,7 +51,7 @@ let vertices : Array<vec3>;
 // Add controls to the gui
 const gui = new DAT.GUI();
 //gui.addColor(controls, 'color');
-gui.add(controls, 'meshes', ['flower', 'cow']);
+gui.add(controls, 'meshes', ['none', 'flower', 'cow']);
 gui.add(controls, 'Load Scene');
 
 function loadScene() {
